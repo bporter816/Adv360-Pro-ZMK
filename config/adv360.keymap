@@ -85,11 +85,11 @@
     };
     games {
       bindings = <
-        &trans &trans &trans &trans &trans &trans &none                                           &mo LAYER_MOD &trans &trans   &trans   &trans    &trans &trans
-        &trans &trans &trans &trans &trans &trans &none                                           &none         &trans &trans   &trans   &trans    &trans &trans
-        &trans &trans &trans &trans &trans &trans &none        &trans &trans &trans &trans        &none         &trans &trans   &trans   &trans    &trans &trans
-        &trans &trans &trans &trans &trans &trans                     &trans &trans                             &trans &trans   &kp UP   &trans    &trans &trans
-        &trans &trans &trans &trans &trans              &trans &trans &trans &trans &trans &trans                      &kp LEFT &kp DOWN &kp RIGHT &trans &trans
+        &trans    &trans &trans &trans &trans &trans &none                                           &mo LAYER_MOD &trans &trans   &trans   &trans    &trans &trans
+        &trans    &trans &trans &trans &trans &trans &none                                           &none         &trans &trans   &trans   &trans    &trans &trans
+        &trans    &trans &trans &trans &trans &trans &none        &trans &trans &trans &trans        &none         &trans &trans   &trans   &trans    &trans &trans
+        &trans    &trans &trans &trans &trans &trans                     &trans &trans                             &trans &trans   &kp UP   &trans    &trans &trans
+        &kp LCTRL &trans &trans &trans &trans              &trans &trans &trans &trans &trans &trans                      &kp LEFT &kp DOWN &kp RIGHT &trans &trans
       >;
     };
     tmux {
